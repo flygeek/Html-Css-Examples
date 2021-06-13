@@ -1,0 +1,56 @@
+/*reset*/
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "PingFang SC", "Microsoft Yahei", sans-serif;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #000000;
+}
+
+/*style*/
+body {
+  background: linear-gradient(135deg, #292929, #000000);
+}
+.container {
+  width: 90vw;
+  max-width: 1200px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(54, 54, 54, 0.4);
+  border-radius: 8px;
+  padding: 30px;
+}
+.container h1 {
+  color: white;
+  text-align: center;
+  font-style: italic;
+  padding: 40px 0;
+}
+
+.container .list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 250px);
+  justify-content: center;
+  row-gap: 36px;
+  column-gap: 24px;
+}
+
+.container .list li {
+  background: linear-gradient(135deg, #0061ff, #ff00f2);
+  text-align: center;
+  border-radius: 3px;
+  padding: 10px 0;
+  transition: 0.4s;
+}
+
+.container .list li:hover {
+  transform: rotateZ(5deg);
+}
