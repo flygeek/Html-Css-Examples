@@ -32,7 +32,13 @@ body {
   color: white;
   text-align: center;
   font-style: italic;
-  padding: 40px 0;
+  padding: 30px 0 50px;
+}
+
+.container h2 {
+  color: white;
+  padding: 30px 0;
+  font-style: italic;
 }
 
 .container .list {
